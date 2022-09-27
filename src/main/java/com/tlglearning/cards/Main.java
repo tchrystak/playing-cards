@@ -20,7 +20,7 @@ public class Main {
     System.out.println(deck);
   }
 
-  private class ColorFirst implements Comparator<Card> { // truly is an inner class
+  private static class ColorFirst implements Comparator<Card> { // truly is an inner class
 
     @Override
     public int compare(Card card1, Card card2) {
